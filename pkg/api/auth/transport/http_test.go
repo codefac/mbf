@@ -10,13 +10,13 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	"github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/model"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/codefac/mbf/pkg/api/auth"
+	"github.com/codefac/mbf/pkg/api/auth/transport"
+	"github.com/codefac/mbf/pkg/utl/middleware/jwt"
+	"github.com/codefac/mbf/pkg/utl/mock"
+	"github.com/codefac/mbf/pkg/utl/mock/mockdb"
+	"github.com/codefac/mbf/pkg/utl/model"
+	"github.com/codefac/mbf/pkg/utl/server"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/stretchr/testify/assert"

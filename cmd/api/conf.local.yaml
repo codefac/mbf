@@ -4,7 +4,7 @@ database:
   psn: postgres://biadpozi:3_Czbl7jSjkUEWk--VP8QXMke-mFnczq@horton.elephantsql.com:5432/biadpozi
 
 server:
-  port: :8080
+  port: :4200
   debug: true
   read_timeout_seconds: 10
   write_timeout_seconds: 5

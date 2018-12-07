@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
-	"github.com/ribice/gorsk/pkg/utl/secure"
+	"github.com/codefac/mbf/pkg/utl/model"
+	"github.com/codefac/mbf/pkg/utl/secure"
 
 	"github.com/go-pg/pg"
 	"github.com/go-pg/pg/orm"

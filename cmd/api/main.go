@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/ribice/gorsk/pkg/api"
+	"github.com/codefac/mbf/pkg/api"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/codefac/mbf/pkg/utl/config"
 )
 
 func main() {
